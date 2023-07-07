@@ -10,7 +10,7 @@ The script establishes connections to the source databases (test_db and dev_db) 
 The script ensures data consistency and a unified user management system across the databases. By running the script, duplicate users with different passwords are handled appropriately, and the merged_users database reflects the correct user data.
 
 Dependencies:
-Python3
+Python3 and 
 psycopg2 library
 
 
