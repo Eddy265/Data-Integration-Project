@@ -1,4 +1,4 @@
-iimport psycopg2
+import psycopg2
 
 # Connect to the test_db, dev_db, and merged_users databases
 test_db_conn = psycopg2.connect(dbname='test_db', user='postgres', password='MYPASSWORD', host='hostname')
