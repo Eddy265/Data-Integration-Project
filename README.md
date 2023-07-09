@@ -1,4 +1,4 @@
-# USER DATA MIGRATION
+# DATA INTEGRATION
 
 Description:
 This project aims to unify user data across multiple data sources, namely test_db, and dev_db, by merging user data into a single database, merged_users. The script is written in Python and utilizes the psycopg2 library for connecting to the databases. The TimescaleDB and the Ubuntu operating system are running on Docker containers. Ensure that these components are set up and configured correctly for the migration script to function properly.
